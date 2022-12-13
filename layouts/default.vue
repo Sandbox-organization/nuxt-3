@@ -5,8 +5,12 @@
         <span>Main</span>
       </nuxt-link>
       
-      <nuxt-link to="/todos">
+      <nuxt-link style="margin-right: 5px;" to="/todos">
         <span>Todos</span>
+      </nuxt-link>
+      
+      <nuxt-link to="/users">
+        <span>Users</span>
       </nuxt-link>
     </div>
     
