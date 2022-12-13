@@ -14,6 +14,5 @@
 
 <script setup>
   const Todo = useTodo()
-  
   const todoList = Todo.list
 </script>

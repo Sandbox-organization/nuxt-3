@@ -4,8 +4,5 @@
 
 <script setup>
   const Todo = useTodo()
-  
-  const fetchTodoList = Todo.fetch
-  
-  await fetchTodoList()
+  await Todo.fetch()
 </script>
