@@ -9,6 +9,7 @@
         <span>Todos</span>
       </nuxt-link>
     </div>
+    
     <div>
       <slot/>
     </div>

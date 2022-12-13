@@ -13,10 +13,7 @@
 </template>
 
 <script setup>
-  const {
-    todoList,
-    fetchTodoList
-  } = useTodo()
-
-  await fetchTodoList()
+  const Todo = useTodo()
+  
+  const todoList = Todo.list
 </script>

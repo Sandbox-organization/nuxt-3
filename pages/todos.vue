@@ -2,6 +2,6 @@
   <nuxt-layout>
     <h1>Todos</h1>
 
-    <todo-list/>
+    <todo-view/>
   </nuxt-layout>
 </template>

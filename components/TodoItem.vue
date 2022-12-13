@@ -5,7 +5,7 @@
 <script setup>
   defineProps( {
     todo: {
-      validator: value => value instanceof useModelTodo
+      validator: value => value instanceof useTodoModel
     }
   } )
 </script>

@@ -1,13 +1,16 @@
 export default () => {
-  const todoList = useState( 'todo-list', () => [] )
+  const Requests = useTodoRequests()
+  const Model = useTodoModel
 
-  const fetchTodoList = async () => {
-    const data = await $fetch( 'https://jsonplaceholder.typicode.com/todos' )
-    todoList.value = data.map( el => new useModelTodo( el ) )
+  const list = useState( 'todo-list', () => [] )
+
+  const fetch = async () => {
+    const data = await Requests.get()
+    list.value = data.map( el => new Model( el ) )
   }
 
   return {
-    todoList,
-    fetchTodoList
+    list,
+    fetch
   }
 }
