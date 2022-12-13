@@ -1,7 +1,7 @@
 <template>
   <nuxt-layout>
-    <h1>Todos</h1>
+    <h1 style="margin-bottom: 10px;">Todos</h1>
 
-    <todo-view/>
+    <todo-list/>
   </nuxt-layout>
 </template>

@@ -3,5 +3,9 @@ export default defineNuxtConfig( {
     public: {
       API_BASE_URL: 'https://jsonplaceholder.typicode.com'
     }
-  }
+  },
+
+  css: [
+    '@/assets/index.css'
+  ]
 } )

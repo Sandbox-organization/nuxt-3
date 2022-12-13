@@ -9,8 +9,4 @@ export default class TodoModel {
     this.title = data.title
     this.userId = data.userId
   }
-
-  print() {
-    console.log( this )
-  }
 }

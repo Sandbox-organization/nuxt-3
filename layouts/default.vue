@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div>
+  <div style="padding: 10px;">
+    <div style="margin-bottom: 10px;">
       <nuxt-link style="margin-right: 5px;" to="/">
         <span>Main</span>
       </nuxt-link>
